@@ -207,7 +207,8 @@
                         Height: =64
                         OnSelect: =
                         Size: =20
-                        Text: =ThisItem.Subject
+                        Text: |
+                            =If(Len(ThisItem.Subject) > 45, Left(ThisItem.Subject, 45) & "...", ThisItem.Subject)
                         Underline: =true
                         Width: =514
                         X: =39
@@ -344,13 +345,13 @@
                         ZIndex: =17
 
                     Label8_1 As label:
-                        Height: =107
+                        Height: =123
                         Overflow: =Overflow.Scroll
                         Size: =18
                         Text: =ThisItem.Description
                         Width: =560
                         X: =45
-                        Y: =355
+                        Y: =339
                         ZIndex: =18
 
                     Icon10_1 As icon.Message:
