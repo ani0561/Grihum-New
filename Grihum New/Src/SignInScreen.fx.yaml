@@ -6,15 +6,15 @@ SignInScreen As screen:
         ZIndex: =2
 
         SignInLogoImg As image:
-            Height: =200
+            Height: =180
             Image: =image
             RadiusBottomLeft: =100
             RadiusBottomRight: =100
             RadiusTopLeft: =100
             RadiusTopRight: =100
-            Width: =415
-            X: =105
-            Y: =92
+            Width: =350
+            X: =156
+            Y: =129
             ZIndex: =1
 
         TextInputEmail As text:
