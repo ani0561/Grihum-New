@@ -497,7 +497,7 @@
         Height: =90
         Image: =image
         Width: =220
-        X: =198
+        X: =180
         ZIndex: =10
 
     Icon7 As icon.Add:
@@ -639,11 +639,11 @@
         Align: =Align.Center
         Color: =RGBA(184, 0, 0, 1)
         FontWeight: =FontWeight.Bold
-        Height: =70
+        Height: =46
         Size: =20
         Text: =UnreadNotificationCount
         Visible: =UnreadNotificationCount > 0
-        Width: =92
-        X: =394
+        Width: =56
+        X: =508
         ZIndex: =16
 
