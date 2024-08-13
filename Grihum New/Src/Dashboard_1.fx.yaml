@@ -344,16 +344,6 @@
                         Y: =518
                         ZIndex: =17
 
-                    Label8_1 As label:
-                        Height: =123
-                        Overflow: =Overflow.Scroll
-                        Size: =18
-                        Text: =ThisItem.Description
-                        Width: =560
-                        X: =45
-                        Y: =339
-                        ZIndex: =18
-
                     Icon10_1 As icon.Message:
                         Height: =40
                         Icon: =Icon.Message
@@ -361,6 +351,15 @@
                         X: =47
                         Y: =522
                         ZIndex: =19
+
+                    HtmlText1 As htmlViewer:
+                        Height: =169
+                        HtmlText: =ThisItem.Description
+                        Size: =21
+                        Width: =560
+                        X: =47
+                        Y: =342
+                        ZIndex: =20
 
             Icon9_1 As icon.Search:
                 Color: =RGBA(0, 13, 75, 1)
