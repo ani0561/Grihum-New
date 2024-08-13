@@ -111,7 +111,7 @@
                 DelayItemLoading: =true
                 Fill: =RGBA(215, 223, 240, 0.47)
                 Height: =937
-                Items: =CustomGallerySample
+                Items: ='Questions List'
                 Layout: =Layout.Vertical
                 LoadingSpinner: =LoadingSpinner.Data
                 TemplatePadding: =0
@@ -143,26 +143,26 @@
                         RadiusTopLeft: =60
                         RadiusTopRight: =60
                         Width: =60
-                        X: =45
+                        X: =46
                         Y: =38
                         ZIndex: =1
 
                     Label6_1 As label:
                         FontWeight: =FontWeight.Bold
-                        Height: =30
-                        Size: =21
-                        Text: ="Ghfl Forum"
-                        Width: =300
+                        Height: =55
+                        Size: =18
+                        Text: =ThisItem.Forum
+                        Width: =399
                         X: =123
-                        Y: =38
+                        Y: =26
                         ZIndex: =2
 
                     Label7_1 As label:
-                        Height: =30
-                        Size: =18
-                        Text: =User().FullName
+                        Height: =44
+                        Size: =16
+                        Text: =ThisItem.'Created By'.DisplayName
                         Width: =300
-                        X: =125
+                        X: =121
                         Y: =68
                         ZIndex: =3
 
@@ -193,23 +193,25 @@
                         ZIndex: =5
 
                     Label3_13 As label:
+                        Height: =43
                         Size: =16
-                        Text: ="Applicaion flow"
-                        Width: =300
+                        Text: =ThisItem.Categories
+                        Width: =364
                         X: =45
-                        Y: =206
+                        Y: =189
                         ZIndex: =6
 
                     Label3_15 As label:
                         Color: =RGBA(0, 94, 146, 1)
                         FontWeight: =FontWeight.Semibold
+                        Height: =64
                         OnSelect: =
                         Size: =20
-                        Text: ="Ghfl home  loan"
+                        Text: =ThisItem.Subject
                         Underline: =true
-                        Width: =400
+                        Width: =514
                         X: =39
-                        Y: =246
+                        Y: =232
                         ZIndex: =7
 
                     Label3_16 As label:
@@ -345,10 +347,10 @@
                         Height: =107
                         Overflow: =Overflow.Scroll
                         Size: =18
-                        Text: ="How to fill the ghfl 12 steps application form in online can you explain how to fill the form without any errors in it"
+                        Text: =ThisItem.Description
                         Width: =560
                         X: =45
-                        Y: =345
+                        Y: =355
                         ZIndex: =18
 
                     Icon10_1 As icon.Message:
